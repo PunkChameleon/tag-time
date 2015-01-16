@@ -54,7 +54,7 @@ var TimeView = function(document) {
 		// create a read Dt
 		var readDt = new DtView(document, false, dt.value),
 		    timeListHasTemp = false,
-		    timeList = document.getElementById("time-list").
+		    timeList = document.getElementById("time-list"),
             i;
 
 		// replace the current write Dt with the new read Dt
